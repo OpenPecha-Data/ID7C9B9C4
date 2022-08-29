@@ -15,9 +15,9 @@ default_language: bo
 source: https://library.bdrc.io
 source_file: null
 initial_creation_type: ocr
-imported: '2022-08-29T08:56:05.490536+00:00'
-last_modified: 2022-08-29 14:34:55.728447
-parser: null
+imported: '2022-08-29T09:07:48.431233+00:00'
+last_modified: 2022-08-29 17:11:16.325056
+parser: https://github.com/OpenPecha/Toolkit/blob/7f57883d84bc10351527a49ee6ce970ace404e50/openpecha/formatters/google_ocr.py
 source_metadata:
   id: http://purl.bdrc.io/resource/W00EGS1016951
   status: http://purl.bdrc.io/admindata/StatusReleased
@@ -33,18 +33,6 @@ statistics:
   ocr_word_median_confidence_index: 0.9900000095367432
 quality: null
 bases:
-  I01JW173:
-    source_metadata:
-      id: http://purl.bdrc.io/resource/I01JW173
-      total_pages: 600
-      volume_number: 1
-      volume_pages_bdrc_intro: 2
-    order: 1
-    base_file: I01JW173.txt
-    statistics:
-      ocr_word_median_confidence_index: 0.9900000095367432
-      ocr_word_mean_confidence_index: 0.9668109760887105
-    legacy_id: v001
   I01JW174:
     source_metadata:
       id: http://purl.bdrc.io/resource/I01JW174
@@ -57,6 +45,18 @@ bases:
       ocr_word_median_confidence_index: 0.9900000095367432
       ocr_word_mean_confidence_index: 0.9658954410094479
     legacy_id: v002
+  I01JW173:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I01JW173
+      total_pages: 600
+      volume_number: 1
+      volume_pages_bdrc_intro: 2
+    order: 1
+    base_file: I01JW173.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9900000095367432
+      ocr_word_mean_confidence_index: 0.9668109760887105
+    legacy_id: v001
 copyright:
   status: Public domain
   notice: Public domain
